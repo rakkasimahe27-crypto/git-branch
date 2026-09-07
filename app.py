@@ -4,6 +4,6 @@ def calculate_total(price, tax_rate=0.95):
     return total
 
 # Call the function
-final_bill = calculate_total(100, 0.08)
+final_bill = calculate_total(100, 0.098)
 print(f"Total Amount: ${final_bill}") # Output: Total Amount: $108.0
 
